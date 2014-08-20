@@ -1,7 +1,7 @@
 // fetches and converts maxmind lite databases
 
 'use strict';
-return;
+return; // don't update files this rises RAM error on heroku.
 if(!process.env.npm_package_config_update){
 	return;
 }
