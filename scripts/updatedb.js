@@ -1,7 +1,7 @@
 // fetches and converts maxmind lite databases
 
 'use strict';
-
+return;
 if(!process.env.npm_package_config_update){
 	return;
 }
